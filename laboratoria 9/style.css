@@ -1,0 +1,30 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .pyramid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .brick {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ff0202;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+  }
